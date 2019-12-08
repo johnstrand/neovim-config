@@ -1,6 +1,6 @@
-source ~/AppData/Local/nvim/plugins.vimrc
-source ~/AppData/Local/nvim/general.vimrc
-source ~/AppData/Local/nvim/omnisharp.vimrc
+source ~/.config/nvim/plugins.vimrc
+source ~/.config/nvim/general.vimrc
+source ~/.config/nvim/omnisharp.vimrc
 
 filetype indent plugin on
 
