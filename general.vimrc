@@ -1,4 +1,5 @@
 set relativenumber
+set number
 set smarttab
 set cindent
 set tabstop=2

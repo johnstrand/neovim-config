@@ -36,7 +36,7 @@ let g:prettier#quickfix_auto_focus = 0
 " prettier command for coc
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 " run prettier on save
-let g:prettier#autoformat = 0
+let g:prettier#autoformat = 1
 autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
 
 " ctrlp
@@ -182,19 +182,19 @@ command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organize
 
 
 set laststatus=2
-set statusline=
-set statusline+=\ %l
-set statusline+=\ %*
-set statusline+=\ ‹‹
-set statusline+=\ %f\ %*
-set statusline+=\ %m
-set statusline+=\ ››
-set statusline+=%=
-set statusline+=\ ‹‹\ 
-set statusline+=%{coc#status()}%{get(b:,'coc_current_function','')}
-set statusline+=\ \|\ Buffer
-set statusline+=\ %n
-set statusline+=\ ››\ %*
+"set statusline=
+"set statusline+=\ %l
+"set statusline+=\ %*
+"set statusline+=\ ‹‹
+"set statusline+=\ %f\ %*
+"set statusline+=\ %m
+"set statusline+=\ ››
+"set statusline+=%=
+"set statusline+=\ ‹‹\ 
+"set statusline+=%{coc#status()}%{get(b:,'coc_current_function','')}
+"set statusline+=\ \|\ Buffer
+"set statusline+=\ %n
+"set statusline+=\ ››\ %*
 
 " Using CocList
 " Show all diagnostics

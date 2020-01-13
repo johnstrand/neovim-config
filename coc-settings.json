@@ -1,5 +1,6 @@
 {
   "codeLens.enable": true,
   "eslint.enable": true,
-  "eslint.autoFix": true
+  "eslint.autoFix": false,
+  "prettier.singleQuote": false
 }
