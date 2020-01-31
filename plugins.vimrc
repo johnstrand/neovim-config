@@ -16,4 +16,5 @@ Plug 'HerringtonDarkholme/yats.vim' " TS Syntax
 Plug 'neoclide/npm.nvim', {'do': 'npm install'}
 "Plug 'jaxbot/semantic-highlight.vim'
 Plug 'OmniSharp/omnisharp-vim'
+Plug 'dense-analysis/ale'
 call plug#end()
